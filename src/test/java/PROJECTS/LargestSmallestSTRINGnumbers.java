@@ -8,5 +8,14 @@ public class LargestSmallestSTRINGnumbers {
 	public void largestWord() {
 		
 		System.out.println(" largest word  >>>>>>>>> <<<<<<");
+		
+		
+		System.out.println(" largest word  >>>>>>>>> <<<<<<");
+		
+		System.out.println(" largest word  >>>>>>>>> <<<<<<");
+		System.out.println(" largest word  >>>>>>>>> <<<<<<");
+		System.out.println(" largest word  >>>>>>>>> <<<<<<");
+		
+		System.out.println(" largest word  >>>>>>>>> <<<<<<");
 	}
 }
