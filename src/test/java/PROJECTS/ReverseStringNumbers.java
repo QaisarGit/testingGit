@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class ReverseStringNumbers {
 
-	@Test(description="using string builder")
+	//@Test(description="using string builder")
 	public void reversedSTRING() {
 		System.out.println("reversed word ");
 		String str= "I write a program that match the requirements";
@@ -16,6 +16,14 @@ public class ReverseStringNumbers {
 	@Test(description="using for loop")
 	public void reversedStringLoop() {
 		System.out.println("using  for loop ");
+		String str= "I write a program that match the requirements";
+		String rev ="";
+		for(int i =str.length()-1;i>=0;i--) {
+			rev=rev+str.charAt(i);
+			
+			
+		}
+		System.out.println(rev); 
 	}
 
 }
