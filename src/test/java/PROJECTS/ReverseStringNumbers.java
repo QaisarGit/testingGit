@@ -39,6 +39,7 @@ public class ReverseStringNumbers {
 	}
 	@Test(description="reversed word")
 public void reversedWords() {
+		System.out.println("reversed words in a row");
 		
 	}
 }
