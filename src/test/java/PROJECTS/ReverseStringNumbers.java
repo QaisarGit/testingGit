@@ -1,5 +1,7 @@
 package PROJECTS;
 
+import java.util.Arrays;
+
 import org.testng.annotations.Test;
 
 public class ReverseStringNumbers {
@@ -26,7 +28,7 @@ public class ReverseStringNumbers {
 		System.out.println(rev);
 	}
 
-	@Test(description = "reversed  order words in a sentance")
+	//@Test(description = "reversed  order words in a sentance")
 	public void reveredWordOrder() {
 		String str = "I wrote many books and articles";
 
@@ -40,6 +42,22 @@ public class ReverseStringNumbers {
 	@Test(description="reversed word")
 public void reversedWords() {
 		System.out.println("reversed words in a row");
+String sentence = "cat dog apple";
+        
+        String[] words = sentence.split(" ");
+        
+        // Reverse each word
+        for (int i = 0; i < words.length; i++) {
+            words[i] = new StringBuilder(words[i]).reverse().toString();
+        }
+        System.out.println("reversed words "+words);
+        
+        // Sort in ascending order
+        Arrays.sort(words);
+        
+        for (String word : words) {
+            System.out.print(word + " ");
+        }
 		
 	}
 }
